@@ -8,6 +8,11 @@ namespace DeckOfCards
         {
             //Display Message
             Console.WriteLine("Welcome to Deck Of Cards!");
+
+            //Call Class
+            Cards cards = new Cards();
+            cards.CardsCreator();
+            
         }
     }
 }
